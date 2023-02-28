@@ -5,9 +5,9 @@ namespace Jneureiter\Usermanagement;
 class User
 {
 
-    private string $username;
-    private string $fname;
-    private string $lname;
+    private string $username = '';
+    private string $fname = '';
+    private string $lname = '';
 
     public function __construct(){
 
@@ -27,8 +27,10 @@ class User
         return $this;
     }
 
-    public function constructUsername(): User{
-        $this->username = strtolower(substr($this->fname, 0,1) . $this->lname);
+    public function setUsername(string $uname): User {
+        $this->username = $uname;
+
+        return $this;
     }
 
     public function getValue(): string{
