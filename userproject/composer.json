@@ -1,0 +1,19 @@
+{
+    "name": "jneureiter/userproject",
+    "description": "A demo project",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jneureiter\\Userproject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josef Neureiter",
+            "email": "josef.neu05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
