@@ -1,0 +1,19 @@
+{
+    "name": "josef/jneureiter",
+    "description": "Making a user",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Josef\\Jneureiter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josef Neureiter",
+            "email": "josef.neu05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

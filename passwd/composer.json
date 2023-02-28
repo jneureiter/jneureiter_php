@@ -1,0 +1,19 @@
+{
+    "name": "jneureiter/passwd",
+    "description": "A library to create passwords",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jneureiter\\Passwd\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Josef Neureiter",
+            "email": "josef.neu05@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
